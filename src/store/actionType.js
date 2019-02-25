@@ -1,0 +1,4 @@
+
+export const CHANGE_VALUE = "CHANGE_VALUE"
+export const CHANGE_CONFIG = "CHANGE_CONFIG"
+

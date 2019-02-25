@@ -1,0 +1,35 @@
+.show {
+    opacity: 1;
+    color: red;
+    transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+}
+.hide {
+    animation: hite-item 2s ease-in;
+    -webkit-animation: hite-item 2s ease-in forwards;
+}
+@keyframes hite-item {
+    0% {
+        opacity: 1;
+        color: red;
+    }
+    50% {
+        opacity: 0.5;
+        color: blue;
+    }
+    100% {
+        opacity: 0;
+        color: blue;
+    }
+}
+
+.fade-enter {
+    opacity: 0;
+}
+.fade-enter-active {
+    opacity:1;
+
+}
